@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f31">
+  <meta name="description"
+    content="Responda a 6 perguntas e descubra um caminho mais simples para organizar seus hábitos com o Método Leveza 28D.">
+  <title>Descubra seu próximo passo | Método Leveza 28D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2002912740393254');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2002912740393254&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="Método Leveza 28D">MÉTODO <span>LEVEZA 28D</span></a>
+  </header>
+
+  <main>
+    <section class="quiz-shell" id="quizShell">
+      <div class="intro-screen" id="introScreen">
+        <div class="intro-tag">UM NOVO COMEÇO PODE SER MAIS SIMPLES</div>
+        <h1>O QUE ESTÁ FALTANDO PARA VOCÊ CUIDAR MAIS DE SI?</h1>
+        <p>Responda a 6 perguntas rápidas e descubra qual pode ser o próximo passo para construir uma rotina mais leve e
+          saudável.</p>
+        <div class="intro-points">
+          <span><b>✓</b> Leva menos de 2 minutos</span>
+          <span><b>✓</b> Respostas simples e rápidas</span>
+          <span><b>✓</b> Um direcionamento pensado nas suas respostas</span>
+        </div>
+        <button class="btn btn-primary btn-start" id="startBtn">COMEÇAR MEU QUIZ <span>→</span></button>
+        <small class="privacy-note">Suas respostas são usadas apenas para personalizar sua experiência nesta
+          página.</small>
+      </div>
+
+      <div class="question-screen hidden" id="questionScreen">
+        <div class="progress-meta">
+          <span id="stepLabel">PERGUNTA 1 DE 6</span>
+          <span id="progressPercent">17%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="question-content">
+          <div class="question-kicker" id="questionKicker">VAMOS COMEÇAR PELO SEU OBJETIVO</div>
+          <h2 id="questionTitle">Qual é seu principal objetivo neste momento?</h2>
+          <p class="question-sub" id="questionSub">Não existe resposta certa ou errada. Escolha a que mais combina com
+            você.</p>
+          <div class="options" id="options"></div>
+        </div>
+        <div class="quiz-controls">
+          <button class="back-btn" id="backBtn" type="button">← Voltar</button>
+          <button class="btn btn-primary next-btn" id="nextBtn" type="button" disabled>CONTINUAR <span>→</span></button>
+        </div>
+      </div>
+
+      <div class="result-screen hidden" id="resultScreen">
+        <div class="result-tag"><span>✓</span> SUAS RESPOSTAS FORAM CONCLUÍDAS</div>
+        <div class="result-layout">
+          <div class="result-copy">
+            <div class="question-kicker">SEU PRÓXIMO PASSO</div>
+            <h2 id="resultTitle">Você pode começar com pequenas mudanças.</h2>
+            <p id="resultText"></p>
+            <div class="result-insight">
+              <span class="insight-icon">✦</span>
+              <div><b>O que pode ajudar agora</b>
+                <p id="resultInsight"></p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-label">CONHEÇA O MÉTODO</div>
+            <img src="assets/metodo-leveza-28d.png" alt="Manual digital Método Leveza 28D">
+            <h3>MÉTODO LEVEZA 28D</h3>
+            <p>Um manual prático para ajudar você a organizar seus hábitos e dar os primeiros passos com mais clareza.
+            </p>
+            <div class="product-price"><small>ACESSO DIGITAL</small><strong>R$ 9,90</strong><span>Pagamento único</span>
+            </div>
+            <a class="btn btn-buy" id="checkoutBtn" href="https://pay.cakto.com.br/3cqus3m_1280605">QUERO CONHECER O
+              MÉTODO <span>→</span></a>
+            <small class="checkout-note">Você será direcionada para a página segura de pagamento.</small>
+          </div>
+        </div>
+        <div class="result-footnote">O Método Leveza 28D é um material educativo. Não promete resultados específicos nem
+          substitui orientação individual de profissionais de saúde.</div>
+        <button class="restart-btn" id="restartBtn" type="button">Refazer o quiz</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Método Leveza 28D</span>
+    <span>Um passo de cada vez.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

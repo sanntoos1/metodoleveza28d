@@ -1,0 +1,28 @@
+QUIZ — MÉTODO LEVEZA 28D
+
+Arquivos:
+- index.html
+- styles.css
+- script.js
+- assets/metodo-leveza-28d.png
+
+O QUE ESTÁ IMPLEMENTADO:
+- Tela inicial com convite para responder.
+- 6 perguntas de múltipla escolha.
+- Barra de progresso.
+- Navegação voltar/continuar.
+- Tela final com texto personalizado de acordo com as respostas.
+- Apresentação do Método Leveza 28D por R$ 9,90.
+- CTA para checkout.
+- Layout responsivo para celular e desktop.
+- Não solicita nome, telefone ou e-mail.
+- Não promete perda de peso garantida e não inventa bônus.
+
+ANTES DE PUBLICAR:
+1. Abra script.js.
+2. Localize: const checkoutUrl = "https://SEU-LINK-DE-CHECKOUT";
+3. Substitua pelo link real do seu checkout.
+4. Publique todos os arquivos mantendo a pasta assets.
+
+NOTA:
+O quiz é uma ferramenta de identificação e direcionamento, não uma avaliação médica, nutricional ou diagnóstico.
